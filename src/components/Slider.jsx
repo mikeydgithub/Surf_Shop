@@ -102,32 +102,11 @@ const Slider = () => {
                 </ImageContainer>
                 <InfoContainer>
                     <Title>{item.title}!</Title>
-                    <Description>{item.description}</Description>
+                    <Description>{item.desc}</Description>
                     <Button>Shop Now</Button>
                 </InfoContainer>
             </Slide>
             ))}
-
-            <Slide bg='#6FB1B3'>
-                <ImageContainer>
-                    <Image src="https://user-images.githubusercontent.com/94988620/176242621-64b48f97-41ca-4979-a59d-17f8e4741507.jpg"/>
-                </ImageContainer>
-                <InfoContainer>
-                    <Title>Summer Sale</Title>
-                    <Description>You don't want to miss this Wave!</Description>
-                    <Button>Shop Now</Button>
-                </InfoContainer>
-            </Slide>
-            <Slide bg='#6FB1B3'>
-                <ImageContainer>
-                    <Image src="https://user-images.githubusercontent.com/94988620/176242621-64b48f97-41ca-4979-a59d-17f8e4741507.jpg"/>
-                </ImageContainer>
-                <InfoContainer>
-                    <Title>Clothes with a mission</Title>
-                    <Description>Find your fit!</Description>
-                    <Button>Shop Now</Button>
-                </InfoContainer>
-            </Slide>
         </Wrapper>
         <Arrow direction="right" onClick={() => handleClick("right")}>
             <ArrowRightOutlined/>
