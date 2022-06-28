@@ -1,19 +1,24 @@
 
 import React from 'react'
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const Container = styled.div`
     font-family: 'Roboto', sans-serif;
     flex: 1;
     margin: 3px;
     height: 70vh;
-    position: relative
+    position: relative;
+    &::hover {
+        background-color: lightblue;
+    }
+    cursor: pointer;
 `;
+
 const Image = styled.img`
     width: 100%;
-    heigh: 100%;
+    height: 100%;
     object-fit: cover;
-    background-color: white;
+  }
 `;
 
 const Info = styled.div`
