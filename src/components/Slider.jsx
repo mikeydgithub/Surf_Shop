@@ -47,11 +47,12 @@ const Slide = styled.div`
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: ${props => props.bg}
+    background-color: ${props => props.bg};
 `;
+
 const ImageContainer = styled.div`
     flex:1;
-`
+`;
 
 const Image = styled.img`
     height: 80%;
@@ -66,11 +67,13 @@ const InfoContainer = styled.div`
 const Title = styled.h1`
     font-size: 70px;
 `;
+
 const Description = styled.p`
     margin: 50px 0px;
     font-size: 20px;
-    font-wight: 500;
+    font-weight: 500;
 `;
+
 const Button = styled.button`
     padding: 10px;
     font-size: 20px;

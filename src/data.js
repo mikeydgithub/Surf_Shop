@@ -45,32 +45,32 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176512904-e554baaf-12b6-4dec-83e1-ae7d19023149.jpg",
 
     },
     {
         id: 2,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176512934-89252dda-e0c5-44ef-8c2a-a714062b4246.jpg",
 
     },
     {
         id: 3,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176513508-26ea5e14-7089-4604-b7e5-b1f00b9ea962.jpg",
 
     },
     {
         id: 4,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176513545-c473b9f0-48b0-403a-81a1-af01ec2ad5a0.jpg",
 
     },
     {
         id: 5,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176514109-9307cb7e-aad9-4dc7-ba9d-7eeaaaf6fb2d.jpg",
 
     },
     {
         id: 6,
-        img: "",
+        img: "https://user-images.githubusercontent.com/94988620/176514174-215bf91c-cacb-4030-bcae-c59c878025d9.jpg",
 
     }
 ]
