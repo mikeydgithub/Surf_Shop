@@ -10,7 +10,7 @@ const Container = styled.div`
     background-color: white;
     margin-top: 10px;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    
     overflow: hidden;
 `;
 

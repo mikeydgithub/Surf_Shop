@@ -3,22 +3,22 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Container = styled.div`
-    font-family: 'Roboto', sans-serif;
     flex: 1;
-    margin: 3px;
+    margin: 10px;
     height: 70vh;
     position: relative;
-    &::hover {
-        background-color: lightblue;
-    }
     cursor: pointer;
+    &:hover{
+    transform: scale(1.05);
+    }
+    transition: all 0.5s ease;
 `;
 
 const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+    
 `;
 
 const Info = styled.div`
@@ -47,6 +47,9 @@ const Button = styled.div`
     color: gray;
     cursor: pointer;
     font-weight: 600;
+    &:hover{
+    transform: scale(1.2);
+    }
 `;
 
 const CategoryItem = ({item}) => {

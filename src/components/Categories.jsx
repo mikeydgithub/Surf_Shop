@@ -8,7 +8,7 @@ const Container = styled.div`
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+
     background-color: rgb(111,177,179);
 `;
 

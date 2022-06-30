@@ -43,7 +43,6 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
-    font-family: 'Roboto', sans-serif;
 `;
 
 const Right = styled.div`
@@ -74,7 +73,7 @@ const Navbar = () => {
                 </SearchContainer>
 
         </Left>
-        <Center><Logo>Shop Side</Logo></Center>
+        <Center><Logo>Surf Side</Logo></Center>
         <Right>
         <MenuItem>Register</MenuItem>
         <MenuItem>Sign In</MenuItem>
