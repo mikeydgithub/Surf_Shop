@@ -1,5 +1,5 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@mui/icons-material'
-import React, {useState} from 'react'
+import { useState } from 'react'
 import styled from "styled-components"
 import { sliderItems } from '../data';
 
@@ -10,7 +10,6 @@ const Container = styled.div`
     background-color: white;
     margin-top: 10px;
     position: relative;
-    
     overflow: hidden;
 `;
 

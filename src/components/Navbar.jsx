@@ -1,12 +1,13 @@
 import { Search, ShoppingCartCheckoutOutlined } from '@mui/icons-material';
 import { Badge } from '@mui/material';
-import React from 'react'
 import styled from 'styled-components'
 
 
 const Container = styled.div`
     height: 60px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    margin-top: -20px;
 `;
 const Wrapper = styled.div`
     padding: 10px 20px;
