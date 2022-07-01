@@ -117,9 +117,6 @@ const Button = styled.button`
 `;
 
 
-
-
-
 const Product = () => {
   return (
     <Container>
