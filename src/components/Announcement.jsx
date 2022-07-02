@@ -12,7 +12,6 @@ const Container = styled.div`
   font-weight: 500;
   width: 100% vw;
   overflow: auto;
-
 `;
 
 const Announcement = () => {

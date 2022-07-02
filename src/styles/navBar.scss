@@ -1,0 +1,14 @@
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: beige;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar.active {
+    background-color: linear-gradient(90deg, rgb (66, 2, 194) 0%, rgb(0, 78, 194) 100%);
+}

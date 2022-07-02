@@ -2,20 +2,13 @@ import { Search, ShoppingCartCheckoutOutlined } from '@mui/icons-material';
 import { Badge } from '@mui/material';
 import styled from 'styled-components'
 import {mobile} from '../responsive'
+import '../styles/navBar.scss'
 
-
-const Container = styled.div`
-    height: 60px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 15px;
-    margin-top: -20px;
+const Container  = styled.div`
     ${mobile({ height: "50px", marginBottom: "30px"})};
-    
 `;
+
 const Wrapper = styled.div`
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
     ${mobile({ padding: "10px 0px" })};
     
 `;
@@ -49,7 +42,7 @@ const Center = styled.div`
     flex: 1;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    justify-content: center;
 `;
 
 const Logo = styled.h1`
@@ -77,7 +70,7 @@ const MenuItem = styled.div`
 const Navbar = () => {
   return (
     <Container>
-        <Wrapper>
+        <Wrapper className='navbar active'>
             <Left>
                 <SearchText>
                 Search
@@ -86,7 +79,6 @@ const Navbar = () => {
                 <Input placeholder="Search"/>
                 <Search style={{color: "gray", fontSize:16}}/>
                 </SearchContainer>
-
             </Left>
             <Center>
                 <Logo>
