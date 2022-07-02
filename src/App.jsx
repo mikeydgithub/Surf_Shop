@@ -1,16 +1,14 @@
 import Hero from './pages/Hero'
-
+import React, { Fragment } from 'react'; 
+import Navbar from './components/Navbar';
 
 function App() {
-  const navbarLinks = [
-    { url: "#", title: "Home" },
-    { url: "#", title: "Trips" },
-    { url: "#", title: "Rewards" },
-  ];
-
   return (
-    <Hero/>
-  )
+    <Fragment>
+       <Navbar />
+       <div style={{overflowY:"scroll", height:"800px"}}></div> 
+    </Fragment>
+  );
 }
 
 export default App

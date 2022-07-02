@@ -7,11 +7,22 @@ import {mobile} from '../responsive'
 const Container = styled.div`
     height: 60px;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     margin-top: -20px;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
     ${mobile({ height: "50px", marginBottom: "30px"})};
     
 `;
+
+// .navbar.active {
+//     background: linear-gradient(90deg, rgba(66, 2, 194) 0%, rgb(0, 778, 194) 100%);
+// }
+
+
 const Wrapper = styled.div`
     padding: 10px 20px;
     display: flex;
