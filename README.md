@@ -1,6 +1,6 @@
 ## Title
 
-# Shop-Shop
+# Surf Shop
 
 https://shoper-shop-app.herokuapp.com
 
@@ -16,7 +16,7 @@ https://shoper-shop-app.herokuapp.com
 
   ## Usage
 
-  * Using stripes payment system you can purchase your favorite cookies, toilet paper, and toys.
+  * An E Commerce Website for all your surfing product needs!
 
   ## Installtion
   
