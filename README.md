@@ -57,6 +57,13 @@
   
   ![image](https://user-images.githubusercontent.com/94988620/183314862-ec4648cd-d8a4-44a0-8298-1acea2834c00.png)
   
+  ![image](https://user-images.githubusercontent.com/94988620/183315048-e361519d-f7ba-4356-b6e3-fd7eae58b41f.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183314983-8e8d5086-0358-4261-82bf-8a8e9e12484d.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183315074-120447f4-6001-4006-9495-a352b51aa74a.png)
+  
+  
  
 
 
