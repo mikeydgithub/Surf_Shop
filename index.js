@@ -1,30 +1,33 @@
-// install and call dependencies
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const userRoute = require("./routes/user")
+const userRoute = require("./routes/user");
+const authRoute = require("./routes/auth");
+const productRoute = require("./routes/product");
+const cartRoute = require("./routes/cart");
+const orderRoute = require("./routes/order");
+const stripeRoute = require("./routes/stripe");
+const cors = require("cors");
 
-// dotevn configuration to use in mongoose url 
 dotenv.config();
 
-// connect to the mongo data base
 mongoose
-    .connect(
-        (process.env.MONGO_URL)
-    )
-    // create promie to the connection
-    .then(() => console.log("DB Connection Success"))
-    // catch errors if there is any
-    .catch((err) => {
-    console.log(err)
-});
+  .connect(process.env.MONGO_URL)
+  .then(() => console.log("DB Connection Successfull!"))
+  .catch((err) => {
+    console.log(err);
+  });
 
-// get requests
-app.use("/api/user", userRoute);
+app.use(cors());
+app.use(express.json());
+app.use("/api/auth", authRoute);
+app.use("/api/users", userRoute);
+app.use("/api/products", productRoute);
+app.use("/api/carts", cartRoute);
+app.use("/api/orders", orderRoute);
+app.use("/api/checkout", stripeRoute);
 
-// start the server npm start
-// if there is no port in our env file use 5000
 app.listen(process.env.PORT || 5000, () => {
-  console.log("Server is running!")
+  console.log("Backend server is running!");
 });

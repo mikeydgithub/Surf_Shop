@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import {mobile} from '../responsive'
 import '../styles/navBar.scss'
 
+
+
 const Container  = styled.div`
     ${mobile({ height: "50px", marginBottom: "30px"})};
 `;
@@ -87,7 +89,8 @@ const Navbar = () => {
             </Center>
             <Right>
                 <MenuItem>Register</MenuItem>
-                <MenuItem>Sign In</MenuItem>
+                <MenuItem>Login</MenuItem>
+                <MenuItem>ProductList</MenuItem>
                 <MenuItem>
                     <Badge badgeContent={4} color="primary">
                         <ShoppingCartCheckoutOutlined/>
