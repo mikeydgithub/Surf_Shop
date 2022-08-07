@@ -1,9 +1,4 @@
-## Title
-
-# Surf Shop
-
-https://shoper-shop-app.herokuapp.com
-
+## Surf Shop ( STILL IN DEVELOPMENT, UI/UX DEMONSTRATION )
 
   ## Table of Contents
   1. [Title](#Title)
@@ -23,7 +18,7 @@ https://shoper-shop-app.herokuapp.com
   * Node.JS
   * BCrypt
   * Express
-  * GraphQL
+  * Styled Components
   * Json Web Token
   * Mongoose
   * Stripe
@@ -36,9 +31,9 @@ https://shoper-shop-app.herokuapp.com
   
   I can register an account and login
   
-  Then I can sort items by categories
+  Then I can go to my products
   
-  And then add my items to my cart
+  And then select an item to add to my cart
   
   When my cart has everything I want
   
@@ -54,7 +49,23 @@ https://shoper-shop-app.herokuapp.com
 
   An E-Commerce shopping APP using React using the React Router DOM for the front end and Mongoose for the back end.
   
-  ![Screenshot 2022-07-07 145735](https://user-images.githubusercontent.com/94988620/177851126-5efcffb0-2c6d-442c-be2a-1c9c2ae829da.jpg)
+  ![image](https://user-images.githubusercontent.com/94988620/183314738-2d390b22-0939-4367-9e88-a6a9149b168b.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183314753-6ec53f20-30e0-4045-9258-0c8a02e1357d.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183314768-a0fdb12e-fb3c-410f-9a9c-d07a2e3ed934.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183314862-ec4648cd-d8a4-44a0-8298-1acea2834c00.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183315048-e361519d-f7ba-4356-b6e3-fd7eae58b41f.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183314983-8e8d5086-0358-4261-82bf-8a8e9e12484d.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183315074-120447f4-6001-4006-9495-a352b51aa74a.png)
+  
+  ![image](https://user-images.githubusercontent.com/94988620/183315136-e737a53d-3dbd-457c-a92f-b306d6329f27.png)
+  
+ 
 
 
   ## Contribution
