@@ -23,7 +23,7 @@ https://shoper-shop-app.herokuapp.com
   * Node.JS
   * BCrypt
   * Express
-  * GraphQL
+  * Styled Components
   * Json Web Token
   * Mongoose
   * Stripe
@@ -36,9 +36,9 @@ https://shoper-shop-app.herokuapp.com
   
   I can register an account and login
   
-  Then I can sort items by categories
+  Then I can go to my products
   
-  And then add my items to my cart
+  And then select an item to add to my cart
   
   When my cart has everything I want
   
@@ -54,7 +54,7 @@ https://shoper-shop-app.herokuapp.com
 
   An E-Commerce shopping APP using React using the React Router DOM for the front end and Mongoose for the back end.
   
-  ![Screenshot 2022-07-07 145735](https://user-images.githubusercontent.com/94988620/177851126-5efcffb0-2c6d-442c-be2a-1c9c2ae829da.jpg)
+ 
 
 
   ## Contribution
