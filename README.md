@@ -1,8 +1,8 @@
-## Title
+## Title ( STILL IN DEVELOPMENT, UI/UX DEMONSTRATION )
 
 # Surf Shop
 
-https://shoper-shop-app.herokuapp.com
+
 
 
   ## Table of Contents
