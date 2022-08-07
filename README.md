@@ -1,9 +1,4 @@
-## Title ( STILL IN DEVELOPMENT, UI/UX DEMONSTRATION )
-
-# Surf Shop
-
-
-
+## Surf Shop ( STILL IN DEVELOPMENT, UI/UX DEMONSTRATION )
 
   ## Table of Contents
   1. [Title](#Title)
